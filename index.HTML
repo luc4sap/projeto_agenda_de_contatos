@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.CSS">
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/png">
+    <title>Agenda de Contatos</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Agenda de Contatos</h1>
+        </header>
+        <form id="form-agenda">
+            <p>Nome: <input type="text" name="contato" id="nome-contato" required placeholder="Digite aqui o nome..."></p>
+            <p>Telefone: <input type="tel" name="telefone" id="numero-telefone" maxlength="15" autocomplete="tel" required placeholder="Digite aqui o numero..."></p>
+            <button id="btn-cadastrar" type="submit">Cadastrar</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <td>Nome do contato</td>
+                    <td>Número do Telefone</td>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <footer>
+            <h4>&copy; LucasAparecido</h4>
+        </footer>
+    </div>
+    <script src="script/main.js"></script>
+</body>
+</html>
